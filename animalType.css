@@ -1,0 +1,76 @@
+
+.adoptHero {
+  background-image: url('images/backG.png');
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px 120px;
+}
+
+.adoptHero h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.cardTwo {
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+}
+
+.cardTwo h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cardTwo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* CARD COLORS */
+.dog {
+  background: #7ec0cc;
+}
+
+.cat {
+  background: #c49a7c;
+}
+
+.small {
+  background: #c5a3d6;
+}
+
+.adoptInfo {
+  text-align: center;
+  padding: 70px 100px 60px 100px;
+
+}
+
+.adoptInfo p {
+  max-width: 700px;
+  margin: 170px auto 5px;
+
+}

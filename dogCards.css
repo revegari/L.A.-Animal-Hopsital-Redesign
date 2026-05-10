@@ -1,0 +1,65 @@
+.adoptDog {
+  background-image: url('images/backG.png');
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px 120px;
+  margin-bottom: 260px;
+}
+
+.adoptDog h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+.dogGrid {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.dogCard  {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dogCard img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid black;
+
+}
+
+.dogName {
+  position: absolute;
+  width: 100px;
+  bottom: 1px;
+  left: 27.5%;
+  background: black;
+  color: #f4a825;
+  padding: 6px 16px;
+  margin: 0 50px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  transform: translateX(-50%);
+}
+
+span {
+  display: grid;
+  place-items: center;
+}
